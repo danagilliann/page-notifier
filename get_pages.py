@@ -10,7 +10,7 @@ user_id = secrets["user_id"]
 pages = []
 
 # previous_time = 0
-next_time = 100
+next_time = 
 
 with open('pages.csv', 'r') as pagefile:
     pagereader = csv.reader(pagefile, delimiter=',')
